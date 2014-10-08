@@ -1,0 +1,12 @@
+Build Instructions
+------------------
+
+To build the xexec plugin for dovecot, you need to have your dovecot
+source and build directories. (Note that they generally are the same.)
+
+Untar this tarball under dovecot's source src/plugins directory.
+In the dovecot build directory, run:
+  ./config.status --file=src/plugins/xexec/Makefile depfiles
+  make -C src/plugins/xexec
+  make -C src/plugins/xexec install
+Enjoy!

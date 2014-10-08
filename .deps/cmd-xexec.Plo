@@ -1,0 +1,290 @@
+cmd-xexec.lo: cmd-xexec.c ../../../src/imap/imap-common.h \
+ ../../../src/lib/lib.h ../../../config.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.6/include/stddef.h /usr/include/string.h \
+ /usr/include/features.h /usr/include/x86_64-linux-gnu/bits/predefs.h \
+ /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/include/xlocale.h \
+ /usr/include/x86_64-linux-gnu/bits/string.h \
+ /usr/include/x86_64-linux-gnu/bits/string2.h /usr/include/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+ /usr/include/x86_64-linux-gnu/bits/types.h \
+ /usr/include/x86_64-linux-gnu/bits/typesizes.h /usr/include/stdlib.h \
+ /usr/include/strings.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.6/include/stdarg.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.6/include-fixed/limits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.6/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/x86_64-linux-gnu/bits/posix2_lim.h /usr/include/errno.h \
+ /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/x86_64-linux-gnu/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/time.h \
+ /usr/include/x86_64-linux-gnu/sys/select.h \
+ /usr/include/x86_64-linux-gnu/bits/select.h \
+ /usr/include/x86_64-linux-gnu/bits/sigset.h \
+ /usr/include/x86_64-linux-gnu/bits/time.h \
+ /usr/include/x86_64-linux-gnu/sys/sysmacros.h \
+ /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.6/include/stdint.h /usr/include/stdint.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar.h ../../../src/lib/compat.h \
+ /usr/include/x86_64-linux-gnu/sys/uio.h \
+ /usr/include/x86_64-linux-gnu/bits/uio.h ../../../src/lib/macros.h \
+ ../../../src/lib/failures.h ../../../src/lib/data-stack.h \
+ ../../../src/lib/mempool.h ../../../src/lib/imem.h \
+ ../../../src/lib/array-decl.h ../../../src/lib/strfuncs.h \
+ ../../../src/lib/strnum.h ../../../src/imap/imap-client.h \
+ ../../../src/imap/imap-commands.h \
+ ../../../src/lib-storage/mail-storage.h \
+ ../../../src/lib/seq-range-array.h ../../../src/lib/file-lock.h \
+ /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+ /usr/include/x86_64-linux-gnu/bits/environments.h \
+ /usr/include/x86_64-linux-gnu/bits/confname.h /usr/include/getopt.h \
+ /usr/include/fcntl.h /usr/include/x86_64-linux-gnu/bits/fcntl.h \
+ /usr/include/x86_64-linux-gnu/bits/stat.h ../../../src/lib/guid.h \
+ ../../../src/lib-mail/mail-types.h ../../../src/lib-storage/mail-error.h \
+ ../../../src/lib-storage/mailbox-list.h \
+ ../../../src/lib-storage/mail-namespace.h \
+ ../../../src/lib-storage/mail-user.h \
+ ../../../src/lib-storage/mail-storage-settings.h \
+ ../../../src/lib/fsync-mode.h ../../../src/lib-imap/imap-parser.h \
+ ../../../src/lib-imap/imap-arg.h ../../../src/lib/array.h \
+ ../../../src/lib/buffer.h ../../../src/imap/imap-sync.h \
+ ../../../src/imap/imap-commands-util.h \
+ ../../../src/lib-mail/message-size.h ../../../src/imap/imap-settings.h \
+ ../../../src/lib/istream.h /usr/include/x86_64-linux-gnu/sys/stat.h \
+ ../../../src/lib/ostream.h ../../../src/lib/ioloop.h \
+ /usr/include/x86_64-linux-gnu/sys/time.h ../../../src/lib/execv-const.h \
+ xexec.h ../../../src/imap/imap-client.h \
+ /usr/include/x86_64-linux-gnu/sys/wait.h /usr/include/signal.h \
+ /usr/include/x86_64-linux-gnu/bits/signum.h \
+ /usr/include/x86_64-linux-gnu/bits/siginfo.h \
+ /usr/include/x86_64-linux-gnu/bits/sigaction.h \
+ /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
+ /usr/include/x86_64-linux-gnu/bits/sigstack.h \
+ /usr/include/x86_64-linux-gnu/sys/ucontext.h \
+ /usr/include/x86_64-linux-gnu/bits/sigthread.h \
+ /usr/include/x86_64-linux-gnu/sys/resource.h \
+ /usr/include/x86_64-linux-gnu/bits/resource.h \
+ /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+ /usr/include/x86_64-linux-gnu/bits/waitstatus.h /usr/include/alloca.h
+
+../../../src/imap/imap-common.h:
+
+../../../src/lib/lib.h:
+
+../../../config.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.6/include/stddef.h:
+
+/usr/include/string.h:
+
+/usr/include/features.h:
+
+/usr/include/x86_64-linux-gnu/bits/predefs.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/x86_64-linux-gnu/bits/string.h:
+
+/usr/include/x86_64-linux-gnu/bits/string2.h:
+
+/usr/include/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/strings.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.6/include/stdarg.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.6/include-fixed/limits.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.6/include-fixed/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+
+/usr/include/errno.h:
+
+/usr/include/x86_64-linux-gnu/bits/errno.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/x86_64-linux-gnu/asm/errno.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/usr/include/x86_64-linux-gnu/sys/types.h:
+
+/usr/include/time.h:
+
+/usr/include/x86_64-linux-gnu/sys/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigset.h:
+
+/usr/include/x86_64-linux-gnu/bits/time.h:
+
+/usr/include/x86_64-linux-gnu/sys/sysmacros.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.6/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
+
+../../../src/lib/compat.h:
+
+/usr/include/x86_64-linux-gnu/sys/uio.h:
+
+/usr/include/x86_64-linux-gnu/bits/uio.h:
+
+../../../src/lib/macros.h:
+
+../../../src/lib/failures.h:
+
+../../../src/lib/data-stack.h:
+
+../../../src/lib/mempool.h:
+
+../../../src/lib/imem.h:
+
+../../../src/lib/array-decl.h:
+
+../../../src/lib/strfuncs.h:
+
+../../../src/lib/strnum.h:
+
+../../../src/imap/imap-client.h:
+
+../../../src/imap/imap-commands.h:
+
+../../../src/lib-storage/mail-storage.h:
+
+../../../src/lib/seq-range-array.h:
+
+../../../src/lib/file-lock.h:
+
+/usr/include/unistd.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
+
+/usr/include/x86_64-linux-gnu/bits/environments.h:
+
+/usr/include/x86_64-linux-gnu/bits/confname.h:
+
+/usr/include/getopt.h:
+
+/usr/include/fcntl.h:
+
+/usr/include/x86_64-linux-gnu/bits/fcntl.h:
+
+/usr/include/x86_64-linux-gnu/bits/stat.h:
+
+../../../src/lib/guid.h:
+
+../../../src/lib-mail/mail-types.h:
+
+../../../src/lib-storage/mail-error.h:
+
+../../../src/lib-storage/mailbox-list.h:
+
+../../../src/lib-storage/mail-namespace.h:
+
+../../../src/lib-storage/mail-user.h:
+
+../../../src/lib-storage/mail-storage-settings.h:
+
+../../../src/lib/fsync-mode.h:
+
+../../../src/lib-imap/imap-parser.h:
+
+../../../src/lib-imap/imap-arg.h:
+
+../../../src/lib/array.h:
+
+../../../src/lib/buffer.h:
+
+../../../src/imap/imap-sync.h:
+
+../../../src/imap/imap-commands-util.h:
+
+../../../src/lib-mail/message-size.h:
+
+../../../src/imap/imap-settings.h:
+
+../../../src/lib/istream.h:
+
+/usr/include/x86_64-linux-gnu/sys/stat.h:
+
+../../../src/lib/ostream.h:
+
+../../../src/lib/ioloop.h:
+
+/usr/include/x86_64-linux-gnu/sys/time.h:
+
+../../../src/lib/execv-const.h:
+
+xexec.h:
+
+../../../src/imap/imap-client.h:
+
+/usr/include/x86_64-linux-gnu/sys/wait.h:
+
+/usr/include/signal.h:
+
+/usr/include/x86_64-linux-gnu/bits/signum.h:
+
+/usr/include/x86_64-linux-gnu/bits/siginfo.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigaction.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigcontext.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigstack.h:
+
+/usr/include/x86_64-linux-gnu/sys/ucontext.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigthread.h:
+
+/usr/include/x86_64-linux-gnu/sys/resource.h:
+
+/usr/include/x86_64-linux-gnu/bits/resource.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitflags.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+
+/usr/include/alloca.h:
