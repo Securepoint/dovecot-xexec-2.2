@@ -99,10 +99,8 @@ static void cmd_xexec_stdout(struct cmd_xexec_context *context)
 		else {
 			client_send_line(ctx->client,
 					 t_strconcat("* OK ", line, NULL));
-#if 1
-#else
 			o_stream_flush(ctx->client->output);
-#endif
+
 		}
 	}
 }
@@ -121,10 +119,7 @@ static void cmd_xexec_stderr(struct cmd_xexec_context *context)
 	while ((line = i_stream_next_line(ctx->err))) {
 		client_send_line(ctx->client, t_strconcat("* NO ", line, NULL));
 	}
-#if 1
-#else
 	o_stream_flush(ctx->client->output);
-#endif
 }
 
 bool cmd_xexec(struct client_command_context *cmd)
